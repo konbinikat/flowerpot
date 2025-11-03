@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&display=swap');
+
+:root {
+    --text: #0d160e;
+    --background: #f0fff3;
+    --primary: #83d77f;
+    --secondary: #ddffdb;
+    --accent: #46ec5c;
+}
+
+
+
+.m-plus-rounded-1c-regular {
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+* {
+    cursor: default;
+    font-family: "M PLUS Rounded 1c" , sans-serif;
+    white-space: nowrap;
+    overflow-x: hidden;
+    text-overflow: ellipsis;
+    color: var(--text);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--background);
+}
+
+header {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background-color: var(--secondary);
+    padding-left: 1rem;
+}
+
+main {
+    padding: 1rem;
+}
+
+.horizontal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+li {
+    list-style: none;
+}
+
+.video {
+    border: 1px solid black;
+    width: 160px;
+    padding: 1rem;
+    margin: 1rem;
+    font-size: 75%;
+}
+
+.video * {
+    gap: 0rem;
+    padding: 0%;
+    margin: 0%;
+    text-overflow: ellipsis;
+}
+
+.video img {
+    width: 160px;
+    height: 90px;
+    object-fit: cover;
+}
+
+.video table {
+    width: 100%;
+}
+
+.title {
+    font-weight: bold;
+}
+
+.views {
+    color: gray;
+    text-align: right;
+}
+
+.likes {
+    color: var(--green);
+    text-align: left;
+}
+
+.player {
+    width: 1280px;
+    height: 720px;
+    object-fit: cover;
+}
